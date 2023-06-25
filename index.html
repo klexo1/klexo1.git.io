@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="treasurehunt.css" rel="stylesheet">
+    </head>
+    <body>
+  <h1>Devil Fruit Treasure Hunt Game</h1>
+  <img src="https://cdn.pixabay.com/photo/2020/04/25/09/52/onepiece-5090120_1280.jpg" alt="One Piece" class="photo" />
+  <hr />
+
+  <ul>
+    <h2>Rules of The Game</h2>
+        <li>1.Click the boxes to reveal your devil fruit.</li>
+        <li>2.If you click on the bomb, you lose.</li>
+        <li>3.If you click on the treasure, you win.</li>
+
+  </ul>
+
+<br/>
+
+  <table border="1", class="center">
+    <tr>
+      <td id="0" onclick="treasure(0)">🍐</td>
+      <td id="1" onclick="treasure(1)">🍎</td>
+      <td id="2" onclick="treasure(2)">🍄</td>
+    </tr>
+    <tr>
+        <td id="3" onclick="treasure(3)">🍈</td>
+        <td id="4" onclick="treasure(4)">🥜</td>
+        <td id="5" onclick="treasure(5)">🥕</td>
+    </tr>
+    <tr>
+        <td id="6" onclick="treasure(6)">🍇</td>
+        <td id="7" onclick="treasure(7)">🐿</td>
+        <td id="8" onclick="treasure(8)">🍍</td>
+    </tr>
+  </table>
+  <div class="button">
+  <button type="button" onclick="location.reload()">Restart Game</button></div>
+  <footer>&copy; Kiana & Alexis </footer>
+
+  <script type="text/javascript" src="treasurehunt.js"></script>
+
+</body>
+
+</html>
